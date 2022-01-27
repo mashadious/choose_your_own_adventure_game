@@ -11,9 +11,15 @@ elif answer == "c":
     if answer == "s":
         answer=input("You spray the contents onto the alien looking creatures, realising in horror that they are inflating and starting to burst. The emerging gas is triggering a sharp pain in your head. Before you realise what is happening you watch yourself fall off the tree, unable to grab onto any of the branches you pass. You find yourself lying on the moss-covered ground, paralised. You lost.")
     elif answer == "w":
-                answer=input("You empty the bottle's contents onto your leg and watch the horryfiying creatures flow down the tree. Relieved, but aware that you have nothing left to drink from. You continue to climb as fast as you can, paying close attention to the tree's surface. To your delight, you reach the treetop and spot smoke emerging from a section of the vast forest not far from you.")
+                answer=input("You empty the bottle's contents onto your leg and watch the horrifying creatures flow down the tree. Relieved, but aware that you have nothing left to drink from. You continue to climb as fast as you can, paying close attention to the tree's surface. To your delight, you reach the treetop and spot smoke emerging from a section of the vast forest not far from you. You take a closer look into your shoulder bag and see a <compass> and a <map>. What do you grab? (c/m)")
+        if answer == "c":
+            answer=input("")
+        elif answer == "m":
+            answer=input("")
+        else:
+            print("invalid answer, please restart the adventure.")
     else:
-                print("invalid answer, please restart the adventure.")
+        print("invalid answer, please restart the adventure.")
 
 
 elif answer == "t":
