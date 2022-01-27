@@ -1,5 +1,5 @@
 name = input(" What is your name: ")
-print("welcome to this adventure, ",name)
+print("Welcome to this adventure,",name)
 
 answer=input("You wake up in the center of a moss-covered clearing. Look around. Pine trees and ferns in every direction. A mesmerising smell moves in the moist and cool air. Birds can be heard in the distance. No signs of civilisation. <Climb> up a tree or make your way through the <thicket> (c/t): ").lower()
 
@@ -26,17 +26,3 @@ elif answer == "c":
             print("invalid answer, please restart the adventure.")
     else:
         print("invalid answer, please restart the adventure.")
-
-
-elif answer == "t":
-    answer=input("You took the right turn while it's getting darker, you kept walking for an hour . Suddenly you a town with lights and restraunts and bars. What would you do ? Go back or go to the town? Write(back/town): ")
-
-    if answer == "back":
-        print("You are on your way back as quickly as possible then you drive back home safely. ")
-    elif answer == "town":
-        print("You are so happy that you found a town. You to a restraunt and you eat and happy. You wake up suddenly discovering that you are being chopped and turned into minced meat. Appearantly it is a canabalist town. ")
-    else:
-        print("invalid answer you lost")
-
-else:
-    print("invalid answer you lost")
